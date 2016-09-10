@@ -1,0 +1,17 @@
+OASISFormat: 0.4
+BuildTools: ocamlbuild
+Plugins: META (0.4), DevFiles (0.4)
+
+Name: ads
+Version: 0.0.1
+Synopsis: ADS - Authenticated Data Structures for OCaml
+Authors: Borja o'Cook <borjaocook@gmail.com>
+Maintainers: Borja o'Cook <borjaocook@gmail.com>
+License: LGPL-3.0
+LicenseFile: LICENSE
+Homepage: https://github.com/ergl/ads-ml/
+
+Library ads
+  Path: src/
+  Modules: Ads_core
+  BuildDepends: cryptokit, ezjsonm

@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: 19902bbbaf77fab5111d5fa8ce2f1d0b)
+version = "0.0.1"
+description = "ADS - Authenticated Data Structures for OCaml"
+requires = "cryptokit ezjsonm"
+archive(byte) = "ads.cma"
+archive(byte, plugin) = "ads.cma"
+archive(native) = "ads.cmxa"
+archive(native, plugin) = "ads.cmxs"
+exists_if = "ads.cma"
+# OASIS_STOP
+
